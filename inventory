@@ -1,0 +1,9 @@
+localhost
+[infraestructura]
+infra.example.com
+[bbdd]
+bbdd.example.com
+[middleware]
+middleware.example.com
+[networking]
+networking.example.com

@@ -1,9 +1,9 @@
-localhost
+localhost ansible_host=127.0.0.1
 [infraestructura]
-infra.example.com
+infra.example.com ansible_host=127.0.0.1 ansible_connection=local
 [bbdd]
-bbdd.example.com
+bbdd.example.com ansible_host=127.0.0.1 ansible_connection=local
 [middleware]
-middleware.example.com
+middleware.example.com ansible_host=127.0.0.1 ansible_connection=local
 [networking]
-networking.example.com
+networking.example.com ansible_host=127.0.0.1 ansible_connection=local

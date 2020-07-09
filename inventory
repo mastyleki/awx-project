@@ -6,11 +6,6 @@ bbdd.example.com ansible_host=127.0.0.1
 middleware.example.com ansible_host=127.0.0.1
 [networking]
 networking.example.com ansible_host=127.0.0.1
-[vagrant]
-awx.example.com ansible_host=192.168.33.151 ansible_user=vagrant
-lab.example.com ansible_host=192.168.33.152 ansible_user=vagrant
-[vagrant:vars]
-ansible_user=vagrant
 [infraestructura]
 ansible_connection=local
 [bbdd:vars]
